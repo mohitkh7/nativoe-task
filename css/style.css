@@ -1,0 +1,33 @@
+.btn{
+  font-weight: bold;
+}
+.btn-wide{
+  width:50%;
+}
+.btn-block{
+  width:100%;
+}
+.form-input{
+  margin-bottom: 5px !important;
+}
+#fb-btn{
+  background: linear-gradient(to right, #4b99fb , #64d1fb);
+}
+#google-btn{
+  background: linear-gradient(to right, #f19b77 , #ec6a48);
+}
+.page-footer{
+  background: #fff;
+  font-weight: bold;
+  border-top: 2px #757575 solid;
+}
+/* To stick footer to bottom */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
